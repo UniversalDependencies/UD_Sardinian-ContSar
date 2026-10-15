@@ -25,7 +25,7 @@
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
-Data available since: UD v2.18
+Data available since: UD v2.19
 License: CC BY-SA 4.0
 Includes text: yes
 Parallel: no
