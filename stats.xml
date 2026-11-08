@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>341</sentences><tokens>7944</tokens><words>7952</words><fused>8</fused></total>
+    <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
+    <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
+    <test><sentences>341</sentences><tokens>7944</tokens><words>7952</words><fused>8</fused></test>
+  </size>
+  <lemmas unique="1666" /><!-- su, de, ,, ., e, a, èssere, in, unu, àere, chi, -, si, deretu, suo -->
+  <forms unique="2185" /><!-- de, ,, sa, su, ., e, a, s', in, chi, sos, -, is, si, una -->
+  <fusions unique="8" /><!-- ammentandesi, daeli, faendidda, faendiddu, intrendinci, losingandeli, muttimi, oferendiddi -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="16">
+    <tag name="ADJ">485</tag><!-- suo, umanu, mannu, sotziale, biancu, sardu, issoro, bonu, antigu, eguale -->
+    <tag name="ADP">1142</tag><!-- de, a, in, chin, pro, dae, po, comente, che, contra -->
+    <tag name="ADV">297</tag><!-- no, prus, pustis, comente, non, semper, mai, puru, inue, petzi -->
+    <tag name="AUX">381</tag><!-- èssere, àere, pòdere, dèpere, chèrrere, dare -->
+    <tag name="CCONJ">337</tag><!-- e, o, ma, siat, nen, ne, de, di, et, opuru -->
+    <tag name="DET">1214</tag><!-- su, unu, ònnia, custu, totu, perunu, àteru, meda, calincunu, cantu -->
+    <tag name="INTJ">28</tag><!-- co, bau -->
+    <tag name="NOUN">1494</tag><!-- deretu, persone, libertade, òmine, pudda, tzitade, arte, tziu, parte, bidda -->
+    <tag name="NUM">70</tag><!-- tres, duas, 5, 10, 1780, 1793, 1796, 1808, 2, bator -->
+    <tag name="PART">1</tag><!-- nanca -->
+    <tag name="PRON">433</tag><!-- chi, si, isse, su, deo, ddu, nche, totu, bi, nois -->
+    <tag name="PROPN">269</tag><!-- Sardigna, casteddu, Angioy, Mossaforte, Caderina, Bachiseddu, Natziones, Unidas, Illa, Juanne -->
+    <tag name="PUNCT">959</tag><!-- ,, ., -, ..., ", (, ), ;, :, ! -->
+    <tag name="SCONJ">98</tag><!-- chi, si, ca, cando, a, mancari, comente, aundi, candu, che -->
+    <tag name="VERB">741</tag><!-- tènnere, fàghere, nàrrere, àere, pònnere, èssere, cunsiderare, dare, andare, assegurare -->
+    <tag name="X">3</tag><!-- Art, Nouveau, _ -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="42">
+    <feat name="Abbr" value="Yes" upos="NOUN">8</feat><!-- a.C., A.C., Km, Km., ap.C., etz., it. -->
+    <feat name="Case" value="Acc" upos="PRON">59</feat><!-- l', dd', los, lu, m', nos, la, bi, d', ddu -->
+    <feat name="Case" value="Com" upos="PRON">1</feat><!-- tegus -->
+    <feat name="Case" value="Dat" upos="PRON">50</feat><!-- li, lis, ti, nos, bos, di, l', m', mi, dd' -->
+    <feat name="Clitic" value="Yes" upos="PRON">168</feat><!-- si, s', l', li, che, nos, dd', m', b', lis -->
+    <feat name="Definite" value="Def" upos="DET,PRON">930</feat><!-- sa, su, s', sos, is, sas, s’, la -->
+    <feat name="Definite" value="Ind" upos="DET,PRON">152</feat><!-- una, unu, un', unus, d-unu, unas, attera, uni -->
+    <feat name="ExtPos" value="ADP" upos="ADP,ADV,NOUN">26</feat><!-- a, asuta, cara, fintzas, pustis, aintru, che, intundu -->
+    <feat name="ExtPos" value="ADV" upos="ADP,ADV,VERB">13</feat><!-- a, in, est, comente -->
+    <feat name="ExtPos" value="DET" upos="PRON">4</feat><!-- cale -->
+    <feat name="ExtPos" value="SCONJ" upos="ADP,ADV,SCONJ">10</feat><!-- Dae, Derettu, avanta, comente, finas, imbetzes, intamis, intas, po, si -->
+    <feat name="Foreign" value="Yes" upos="ADJ,NOUN,VERB">5</feat><!-- Etnografico, Museo, Reale, Udienza, acabar -->
+    <feat name="Gender" value="Fem" upos="ADJ,AUX,DET,NOUN,PRON,PROPN,VERB">1467</feat><!-- sa, una, sas, sua, pessone, arte, pudda, s', custa, libertade -->
+    <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,PRON,PROPN,VERB">1580</feat><!-- su, sos, unu, deretu, deretos, tziu, s', custu, istadu, omine -->
+    <feat name="Mood" value="Imp" upos="VERB">7</feat><!-- bastat, dae, Beni, mutti, torres -->
+    <feat name="Mood" value="Ind" upos="AUX,VERB">559</feat><!-- est, aiat, tenet, fit, at, fiat, ant, fin, iat, podet -->
+    <feat name="Mood" value="Sub" upos="AUX,VERB">24</feat><!-- siat, asseguret, podant, siant, acuntentet, alleghet, apant, apat, essit, mandigaren -->
+    <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,PRON,PROPN,VERB">1021</feat><!-- sos, is, sas, deretos, ant, fin, libertades, nos, fiant, sunt -->
+    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,PRON,PROPN,VERB">3118</feat><!-- su, sa, s', una, est, unu, aiat, deretu, tenet, un' -->
+    <feat name="NumType" value="Card" upos="NUM">70</feat><!-- tres, duas, 5, 10, 1780, 1793, 1796, 1808, 2, battor -->
+    <feat name="NumType" value="Ord" upos="ADJ">5</feat><!-- Prima, primu, primos -->
+    <feat name="Person" value="1" upos="AUX,PRON,VERB">69</feat><!-- nos, mi, m', nois, amus, apo, creo, jeo, semus, dao -->
+    <feat name="Person" value="2" upos="AUX,PRON,VERB">42</feat><!-- ses, ti, bos, as, tue, bastat, dae, 'alanzas, 'ois, Beni -->
+    <feat name="Person" value="3" upos="AUX,PRON,VERB">668</feat><!-- est, aiat, si, tenet, fit, s', at, fiat, ant, li -->
+    <feat name="Polarity" value="Neg" upos="ADV">55</feat><!-- no, non, nono, mancu -->
+    <feat name="Poss" value="Yes" upos="ADJ,PRON">75</feat><!-- sua, issoro, suas, suo, suos, miu, nostros, mia, suu, suus -->
+    <feat name="PronType" value="Art" upos="DET,PRON">1080</feat><!-- sa, su, s', sos, is, sas, una, unu, un', unus -->
+    <feat name="PronType" value="Dem" upos="DET,PRON">55</feat><!-- custa, custu, su, custos, cussa, cussas, custas, sa, sos, cussu -->
+    <feat name="PronType" value="Emp" upos="PRON">3</feat><!-- etotu -->
+    <feat name="PronType" value="Ind" upos="ADV,DET,PRON">128</feat><!-- onzi, nemos, tottu, unu, peruna, meda, totus, calincunu, cantu, donnia -->
+    <feat name="PronType" value="Int" upos="PRON">12</feat><!-- cale, chie, ghitte, Cosa -->
+    <feat name="PronType" value="Prs" upos="PRON">266</feat><!-- si, s', l', li, che, nos, dd', mi, b', los -->
+    <feat name="PronType" value="Rel" upos="PRON">77</feat><!-- chi, ki, cale -->
+    <feat name="PronType" value="Tot" upos="DET,PRON">27</feat><!-- totu, tottu, tottus, cada -->
+    <feat name="Tense" value="Imp" upos="AUX,VERB">235</feat><!-- aiat, fit, fiat, fin, iat, aiant, fiant, aian, it, at -->
+    <feat name="Tense" value="Past" upos="AUX,VERB">276</feat><!-- fattu, fatu, cumpresu, istada, istadu, postu, tentu, abboghinadu, assuzetadu, donau -->
+    <feat name="Tense" value="Pres" upos="AUX,VERB">351</feat><!-- est, tenet, at, ant, podet, siat, sunt, tenent, ses, depet -->
+    <feat name="Typo" value="Yes" upos="ADV">1</feat><!-- a -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">579</feat><!-- est, aiat, tenet, fit, at, fiat, ant, fin, iat, podet -->
+    <feat name="VerbForm" value="Ger" upos="AUX,VERB">47</feat><!-- Cunsiderende, pessande, andendi, camminande, faendi, intrendi, timende, aende, allegande, ammentande -->
+    <feat name="VerbForm" value="Inf" upos="AUX,VERB">200</feat><!-- esser, fagher, poder, assegurare, essere, faghere, andare, dare, essi, intrare -->
+    <feat name="VerbForm" value="Part" upos="AUX,VERB">277</feat><!-- fattu, fatu, cumpresu, istada, istadu, postu, tentu, abboghinadu, assuzetadu, donau -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="40">
+    <dep name="acl">81</dep>
+    <dep name="acl:relcl">87</dep>
+    <dep name="advcl">116</dep>
+    <dep name="advmod">265</dep>
+    <dep name="amod">377</dep>
+    <dep name="appos">35</dep>
+    <dep name="aux">251</dep>
+    <dep name="aux:pass">30</dep>
+    <dep name="case">987</dep>
+    <dep name="cc">326</dep>
+    <dep name="ccomp">27</dep>
+    <dep name="compound">4</dep>
+    <dep name="compound:redup">5</dep>
+    <dep name="conj">432</dep>
+    <dep name="cop">93</dep>
+    <dep name="csubj">2</dep>
+    <dep name="det">1203</dep>
+    <dep name="discourse">13</dep>
+    <dep name="dislocated">16</dep>
+    <dep name="expl">117</dep>
+    <dep name="expl:impers">2</dep>
+    <dep name="fixed">73</dep>
+    <dep name="flat">27</dep>
+    <dep name="flat:name">40</dep>
+    <dep name="goeswith">1</dep>
+    <dep name="iobj">67</dep>
+    <dep name="mark">204</dep>
+    <dep name="nmod">447</dep>
+    <dep name="nsubj">378</dep>
+    <dep name="nsubj:pass">26</dep>
+    <dep name="nummod">45</dep>
+    <dep name="obj">321</dep>
+    <dep name="obl">404</dep>
+    <dep name="obl:agent">13</dep>
+    <dep name="orphan">8</dep>
+    <dep name="parataxis">45</dep>
+    <dep name="punct">959</dep>
+    <dep name="root">341</dep>
+    <dep name="vocative">3</dep>
+    <dep name="xcomp">81</dep>
+  </deps>
+</treebank>
